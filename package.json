@@ -1,0 +1,26 @@
+{
+  "name": "proposal-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify js/index.js > ./vendor/index.js",
+    "linebreak-check": "eslint --rule 'linebreak-style: [\"error\", \"unix\"]' js/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axerunners/proposal-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axerunners/proposal-generator/issues"
+  },
+  "homepage": "https://github.com/axerunners/proposal-generator#readme",
+  "devDependencies": {
+    "@axerunners/axecore-lib": "^0.16.8",
+    "browserify": "^16.2.3",
+    "eslint": "^5.13.0"
+  }
+}
