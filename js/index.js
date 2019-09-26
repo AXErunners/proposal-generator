@@ -4,10 +4,10 @@ var socket;
 var paymentCycle;
 
 var mainnetProvider = 'https://insight.axecore.net';
-var mainnetPrefix = '/insight-api';
+var mainnetPrefix = '/api';
 
 var testnetProvider = 'https://testnet-insight.axecore.net';
-var testnetPrefix = '/insight-api';
+var testnetPrefix = '/api';
 
 var init = function(network, provider, prefix) {
     var gov = new Bitcore.GovObject.Proposal();
