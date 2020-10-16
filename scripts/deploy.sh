@@ -16,5 +16,5 @@ if [ "$DEPLOY_ENV" = "production" ]; then
     --exclude package.json \
     --exclude scripts \
     --delete-after \
-    . deploy@proposal.axe.org:/var/www/govobject-proposal/
+    . deploy@proposal.axecore.net:/var/www/govobject-proposal/
 fi
