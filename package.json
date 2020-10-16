@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/axerunners/proposal-generator#readme",
   "devDependencies": {
-    "@axerunners/axecore-lib": "^0.16.8",
+    "@axerunners/axecore-lib": "^0.18.13",
     "browserify": "^16.2.3",
     "eslint": "^5.13.0"
   }
